@@ -12,7 +12,7 @@
             <!-------------------------------------------Asset Management------------------------------------------->
             <a-assets>
                 <a-asset-item id="train-obj" src="./models/obj/tinker.obj"></a-asset-item>
-                <a-asset-item id="train-mtl" src="./models/obj/obj.mtl"></a-asset-item>
+                <a-asset-item id="train-mlt" src="./models/obj/obj.mtl"></a-asset-item>
 
                 <a-asset-item id="train-gltf" src="./models/gltf/train_model.glb"></a-asset-item>
             </a-assets>
@@ -21,7 +21,7 @@
             <a-circle position="-0.4 -0.76 -25" rotation="-90 0 0" radius="100" shadow="receive: true" visible="true" color="green"></a-circle>
 
             <!--------------------------------------OBJ Models----------------------------------------------------------->
-            <a-entity obj-model="obj: #train-obj; mlt: #train-mlt" position="0 0 -10" rotation="-90 -40 70" scale="0.03 0.03 0.03"></a-entity>
+            <a-entity obj-model="obj: #train-obj; mtl: #train-mlt" position="0 0 -10" rotation="-90 -40 70" scale="0.03 0.03 0.03"></a-entity>
         </a-scene>
     </body>
 </html>
